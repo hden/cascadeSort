@@ -1,0 +1,22 @@
+{
+  "name": "cascadeSort",
+  "version": "0.0.1",
+  "description": "A cascade sorting helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "sort"
+  ],
+  "author": "Hao-kang Den",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.4.2",
+    "iced-coffee-script": "~1.4.0a"
+  },
+  "dependencies": {
+    "underscore": "~1.4.3"
+  }
+}
