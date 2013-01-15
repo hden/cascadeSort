@@ -1,9 +1,6 @@
 _ = require 'underscore'
 
 step = 0
-notIdentical = (matrix) ->
-  uniq = _.uniq matrix, false, (item) -> item.toString()
-  return if uniq? then true else false
 check = (value) ->
   step++
   console.log "step: #{step}"
@@ -14,7 +11,7 @@ iterator = (n) ->
 exports.sort = sort = (matrix, column=0, isUpward=true, callback) ->
   length = matrix.length
   res    = matrix
-  if length > 1 and column < matrix[0].length and notIdentical matrix
+  if length > 1 and column < matrix[0].length
     res  = []
     hit  = _.filter matrix, (row) -> iterator row[column]
     miss = _.filter matrix, (row) -> not iterator row[column]
