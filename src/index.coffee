@@ -1,12 +1,14 @@
 _ = require 'underscore'
 
 step = 0
+
 check = (value) ->
   step++
   console.log "step: #{step}"
   console.log value
+
 iterator = (n) ->
-  if n is 1 then true else false
+  if Number(n) is 1 then true else false
 
 exports.sort = sort = (matrix, column=0, isUpward=true, callback) ->
   length = matrix.length

@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/haokang-den/cascadeSort"
+    "url": "https://github.com/haokang-den/cascadeSort.git"
   },
   "keywords": [
     "sort"
   ],
-  "author": "Hao-kang Den",
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "~1.4.2",
